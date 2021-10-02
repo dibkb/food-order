@@ -1,0 +1,30 @@
+
+.container{
+   background-color: #262626;
+   /* border: .6px solid red; */
+   padding: .8rem;
+   box-shadow: 9px 8px 7px rgba(0, 0, 0, 0.25);
+   margin: 2rem 1rem;
+   display: flex;
+   justify-content: space-between;
+
+}
+.item{
+   background: transparent!important;
+}
+.item > *{
+   background: transparent!important;
+   margin: .8rem 0;
+}
+.item h3{
+   font-size: 24px;
+}
+.item p{
+   font-style: italic;
+}
+
+.form-container,.form-container > *{
+   background: transparent!important;
+   margin: .8rem 0;
+}
+   

@@ -1,0 +1,36 @@
+.item-name{
+   font-size: 4rem;
+}
+.details{
+   margin : 1rem 0;
+}
+.details > *{
+   font-size: 2rem;
+}
+.amount{
+   font-size: 2rem;
+   margin-right: 1rem;
+}
+.price{
+   color: #DB3F3A;
+}
+.buttons{
+   margin: 2rem 0;
+}
+.buttons >*{
+   padding: .5rem 2rem;
+   border: none;
+}
+.close{
+   margin-right: 2rem;
+   border: 1px solid white;
+}
+.order,.close:hover{
+   color: black;
+   background-color: #fff;
+}
+.order:hover{
+   background-color: #179B34;
+   color: #fff;
+   font-weight: 500;
+}

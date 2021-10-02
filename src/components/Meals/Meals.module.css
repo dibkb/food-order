@@ -1,0 +1,15 @@
+.summary{
+   margin: 2rem 0;
+   border: 1px solid #fff;
+   padding:  1rem;
+}
+.summary >h3{
+   padding: 12px;
+   text-align: center;
+   font-size: 24px;
+   font-weight: 400;
+}
+.summary-desc{
+   font-size: 15px;
+   color: var(--tex-light);
+}

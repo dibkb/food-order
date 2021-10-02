@@ -1,0 +1,21 @@
+.cart{
+   width: auto;
+   border: 1px solid white;
+   padding: 1rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   cursor: pointer;
+}
+.cart >*{
+   margin: 0 4px;
+   background: transparent;
+}
+
+.cart:hover{
+   /* background-color: #fff; */
+   padding: 1rem 1.8rem;
+}
+.cart:hover>*{
+   /* color: var(--background); */
+}
